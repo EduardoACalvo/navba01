@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+    background-color: rgb(244, 244, 244);
+}
+
+img {
+    height: 2rem !important;
+}
+
+a {
+    color: rgb(58, 52, 52);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav>a {
+    margin: 20px;
+}
+
+.contenedorRegistro {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedorRegistro>a {
+    margin: 10px;
+}
+
+.btnReg {
+    color: white;
+    width: 100px;
+    background-color: #6c70f6;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btnReg:hover {
+    background-color: #4a4dc4;
+}
+
+a:hover {
+    color: black;
+}
